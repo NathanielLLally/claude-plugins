@@ -1,0 +1,5 @@
+{
+  "name": "local",
+  "owner": { "name": "Nathaniel Lally" },
+  "plugins": [{ "name": "phone", "source": "./phone", "description": "Sends messages to your phone through the pipeline's Discord bot" }]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "phone",
+  "version": "0.1.0",
+  "description": "Sends messages to your phone through the pipeline's Discord bot",
+  "userConfig": {
+    "channelId": {
+      "type": "string",
+      "title": "Discord channel ID",
+      "description": "Channel the bot posts to",
+      "default": "1559588814262116362"
+    },
+    "envFile": {
+      "type": "string",
+      "title": "Env file holding DISCORD_BOT_TOKEN",
+      "description": "Read when DISCORD_BOT_TOKEN is not in the environment",
+      "default": "/home/nathaniel/src/git/pipeline/.env"
+    }
+  }
+}
